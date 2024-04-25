@@ -1,7 +1,8 @@
 #include <iostream>
-
-int main(int argc, char const *argv[])
+int main (int argc, char const *argv[])
 {
-    std::cout << "Bomberman" << std::endl;
-    return 0;
+    Juego g;
+    g.iniciar();
+    
+    retunr 0;
 }
